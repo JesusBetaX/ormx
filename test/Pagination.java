@@ -12,7 +12,7 @@ public class Pagination {
   public static void main(String... args) throws SQLException {
     SearchCriteria q = new SearchCriteria();
     q.clearParams();
-    q.put("fecha_creacion", "2020-02-02");
+    q.put("fecha_creacion", "2020-07-11");
     q.put("nombre", "Papas frias");
     q.setLimit(10);
     
